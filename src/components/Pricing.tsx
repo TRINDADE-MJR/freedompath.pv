@@ -13,6 +13,7 @@ interface PricingProps {
         period: string;
         badge?: string;
         cta: string;
+        trial?: string;
         popular?: boolean;
       }>;
       guarantee: string[];
@@ -54,6 +55,14 @@ export const Pricing = ({ t }: PricingProps) => {
                 <h3 className="text-2xl font-bold text-foreground">
                   {plan.name}
                 </h3>
+
+                {plan.trial && (
+                  <div className="bg-primary/10 border border-primary/30 rounded-full px-4 py-2 inline-block">
+                    <p className="text-primary font-semibold text-sm">
+                      🎁 {plan.trial}
+                    </p>
+                  </div>
+                )}
 
                 <div>
                   <div className="text-4xl md:text-5xl font-bold gradient-text">
