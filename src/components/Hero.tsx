@@ -74,7 +74,7 @@ export const Hero = ({ t }: HeroProps) => {
         </div>
 
         <p className="text-sm text-muted-foreground pt-4">
-          ▶ 7 dias 100% grátis • Sem cartão agora • Cancele quando quiser
+          ▶ 7 dias 100% grátis • Cancele quando quiser
         </p>
       </div>
     </section>
