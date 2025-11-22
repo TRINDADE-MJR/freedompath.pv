@@ -5,7 +5,7 @@ export const translations = {
     hero: {
       title: "Você não está sozinho. FreedomPath caminha com você — todo dia.",
       subtitle: "Uma jornada diária de fé, ciência e ação prática para renovar sua mente e viver com liberdade interior.",
-      cta: "Começar 7 Dias Grátis (sem cartão agora)",
+      cta: "Começar 7 Dias Grátis",
     },
     emotional: {
       title: "Você não está sozinho nesta jornada",
@@ -84,7 +84,7 @@ export const translations = {
         },
       ],
       guarantee: [
-        "▶ 7 dias 100% grátis e sem cartão obrigatório agora",
+        "▶ 7 dias 100% grátis",
         "▶ Depois só continua se quiser",
         "▶ Cancele quando quiser com 1 clique",
         "▶ Garantia total de 30 dias – devolvemos cada centavo",
@@ -104,7 +104,7 @@ export const translations = {
     hero: {
       title: "Não estás sozinho. FreedomPath caminha contigo — todos os dias.",
       subtitle: "Uma jornada diária de fé, ciência e ação prática para renovares a tua mente e viveres com liberdade interior.",
-      cta: "Começar 7 Dias Grátis (sem cartão agora)",
+      cta: "Começar 7 Dias Grátis",
     },
     emotional: {
       title: "Não estás sozinho nesta jornada",
@@ -183,7 +183,7 @@ export const translations = {
         },
       ],
       guarantee: [
-        "▶ 7 dias 100% grátis e sem cartão obrigatório agora",
+        "▶ 7 dias 100% grátis",
         "▶ Depois só continua se quiseres",
         "▶ Cancela quando quiseres com 1 clique",
         "▶ Garantia total de 30 dias – devolvemos cada cêntimo",
@@ -203,7 +203,7 @@ export const translations = {
     hero: {
       title: "You are not alone. FreedomPath walks with you — every day.",
       subtitle: "A daily journey of faith, science, and practical action to renew your mind and live with inner freedom.",
-      cta: "Start 7 Days Free (no card required now)",
+      cta: "Start 7 Days Free",
     },
     emotional: {
       title: "You are not alone in this journey",
@@ -282,7 +282,7 @@ export const translations = {
         },
       ],
       guarantee: [
-        "▶ 7 days 100% free with no card required now",
+        "▶ 7 days 100% free",
         "▶ Only continues if you want",
         "▶ Cancel anytime with 1 click",
         "▶ Full 30-day guarantee – we refund every cent",
@@ -302,7 +302,7 @@ export const translations = {
     hero: {
       title: "No estás solo. FreedomPath camina contigo — todos los días.",
       subtitle: "Un viaje diario de fe, ciencia y acción práctica para renovar tu mente y vivir con libertad interior.",
-      cta: "Comenzar 7 Días Gratis (sin tarjeta ahora)",
+      cta: "Comenzar 7 Días Gratis",
     },
     emotional: {
       title: "No estás solo en este viaje",
@@ -381,7 +381,7 @@ export const translations = {
         },
       ],
       guarantee: [
-        "▶ 7 días 100% gratis y sin tarjeta obligatoria ahora",
+        "▶ 7 días 100% gratis",
         "▶ Después solo continúa si quieres",
         "▶ Cancela cuando quieras con 1 clic",
         "▶ Garantía total de 30 días – devolvemos cada centavo",
