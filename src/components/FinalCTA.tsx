@@ -42,7 +42,7 @@ export const FinalCTA = ({ t }: FinalCTAProps) => {
         </Button>
 
         <p className="text-muted-foreground text-lg">
-          ▶ 7 dias 100% grátis • Sem cartão obrigatório • Cancele quando quiser
+          ▶ 7 dias 100% grátis • Cancele quando quiser
         </p>
       </div>
 
