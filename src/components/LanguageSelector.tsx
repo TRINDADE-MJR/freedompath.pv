@@ -23,7 +23,7 @@ export const LanguageSelector = ({ currentLanguage, onLanguageChange }: Language
   const currentLang = languages.find((lang) => lang.code === currentLanguage) || languages[0];
 
   return (
-    <div className="fixed top-6 right-6 z-50">
+    <div className="fixed top-6 right-6 z-[9999]" style={{ position: 'fixed' }}>
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button
