@@ -84,9 +84,9 @@ export const translations = {
         },
       ],
       guarantee: [
-        "▶ 7 dias 100% grátis",
-        "▶ Depois só continua se quiser",
-        "▶ Cancele quando quiser com 1 clique",
+        "🎁 7 dias grátis para testar tudo",
+        "💳 Após o teste, seu plano é ativado automaticamente",
+        "🚫 Cancele nos 7 dias de teste e não paga nada",
       ],
     },
     finalCTA: {
@@ -182,9 +182,9 @@ export const translations = {
         },
       ],
       guarantee: [
-        "▶ 7 dias 100% grátis",
-        "▶ Depois só continua se quiseres",
-        "▶ Cancela quando quiseres com 1 clique",
+        "🎁 7 dias grátis para testar tudo",
+        "💳 Após o teste, o teu plano é ativado automaticamente",
+        "🚫 Cancela nos 7 dias de teste e não pagas nada",
       ],
     },
     finalCTA: {
@@ -280,9 +280,9 @@ export const translations = {
         },
       ],
       guarantee: [
-        "▶ 7 days 100% free",
-        "▶ Only continues if you want",
-        "▶ Cancel anytime with 1 click",
+        "🎁 7 days free to try everything",
+        "💳 After trial, your plan activates automatically",
+        "🚫 Cancel within 7 days and pay nothing",
       ],
     },
     finalCTA: {
@@ -378,9 +378,9 @@ export const translations = {
         },
       ],
       guarantee: [
-        "▶ 7 días 100% gratis",
-        "▶ Después solo continúa si quieres",
-        "▶ Cancela cuando quieras con 1 clic",
+        "🎁 7 días gratis para probar todo",
+        "💳 Después del período de prueba, tu plan se activa automáticamente",
+        "🚫 Cancela en los 7 días de prueba y no pagas nada",
       ],
     },
     finalCTA: {
