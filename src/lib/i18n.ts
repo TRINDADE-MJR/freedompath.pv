@@ -43,7 +43,7 @@ export const translations = {
       ],
     },
     features: {
-      title: "Tudo que Você Recebe no Premium",
+      title: "Tudo que Você Recebe",
       items: [
         "✨ Acesso ilimitado e imediato a todo o conteúdo",
         "⏰ Novo exercício + reflexão + áudio diário (nunca acaba)",
@@ -141,7 +141,7 @@ export const translations = {
       ],
     },
     features: {
-      title: "Tudo que Recebes no Premium",
+      title: "Tudo que Recebes",
       items: [
         "✨ Acesso ilimitado e imediato a todo o conteúdo",
         "⏰ Novo exercício + reflexão + áudio diário (nunca acaba)",
@@ -239,7 +239,7 @@ export const translations = {
       ],
     },
     features: {
-      title: "Everything You Get in Premium",
+      title: "Everything You Get",
       items: [
         "✨ Unlimited and immediate access to all content",
         "⏰ New exercise + reflection + daily audio (never ends)",
@@ -337,7 +337,7 @@ export const translations = {
       ],
     },
     features: {
-      title: "Todo lo que Recibes en Premium",
+      title: "Todo lo que Recibes",
       items: [
         "✨ Acceso ilimitado e inmediato a todo el contenido",
         "⏰ Nuevo ejercicio + reflexión + audio diario (nunca termina)",
