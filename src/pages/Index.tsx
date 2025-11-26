@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { Hero } from "@/components/Hero";
 import { EmotionalConnection } from "@/components/EmotionalConnection";
 import { Tripod } from "@/components/Tripod";
@@ -6,24 +6,10 @@ import { Features } from "@/components/Features";
 import { Pricing } from "@/components/Pricing";
 import { FinalCTA } from "@/components/FinalCTA";
 import { Footer } from "@/components/Footer";
-import { LanguageSelector } from "@/components/LanguageSelector";
-import { detectLanguage, getTranslations, saveLanguagePreference, type Language } from "@/lib/i18n";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Index = () => {
-  const [language, setLanguage] = useState<Language>("pt");
-  const [translations, setTranslations] = useState(getTranslations("pt"));
-
-  useEffect(() => {
-    const detectedLang = detectLanguage();
-    setLanguage(detectedLang);
-    setTranslations(getTranslations(detectedLang));
-  }, []);
-
-  const handleLanguageChange = (lang: Language) => {
-    setLanguage(lang);
-    setTranslations(getTranslations(lang));
-    saveLanguagePreference(lang);
-  };
+  const { translations } = useLanguage();
 
   useEffect(() => {
     // Aplicar tema Fire automaticamente
@@ -32,7 +18,6 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
-      <LanguageSelector currentLanguage={language} onLanguageChange={handleLanguageChange} />
       <Hero t={translations} />
       <EmotionalConnection t={translations} />
       <Tripod t={translations} />
