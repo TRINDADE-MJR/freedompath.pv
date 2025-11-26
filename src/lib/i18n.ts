@@ -97,7 +97,7 @@ export const translations = {
     footer: {
       copyright: "FreedomPath © 2025-2026",
       tagline: "Com amor e respeito",
-      support: "Suporte 24h",
+      support: "Suporte 24h • freedom@st0pporn.com",
     },
   },
   "pt-PT": {
@@ -196,7 +196,7 @@ export const translations = {
     footer: {
       copyright: "FreedomPath © 2025-2026",
       tagline: "Com amor e respeito",
-      support: "Suporte 24h",
+      support: "Suporte 24h • freedom@st0pporn.com",
     },
   },
   en: {
@@ -295,7 +295,7 @@ export const translations = {
     footer: {
       copyright: "FreedomPath © 2025-2026",
       tagline: "With love and respect",
-      support: "24/7 Support",
+      support: "24/7 Support • freedom@st0pporn.com",
     },
   },
   es: {
@@ -394,7 +394,7 @@ export const translations = {
     footer: {
       copyright: "FreedomPath © 2025-2026",
       tagline: "Con amor y respeto",
-      support: "Soporte 24h",
+      support: "Soporte 24h • freedom@st0pporn.com",
     },
   },
 };
