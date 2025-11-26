@@ -1,7 +1,7 @@
-export type Language = "pt-BR" | "pt-PT" | "en" | "es";
+export type Language = "pt" | "en" | "es";
 
 export const translations = {
-  "pt-BR": {
+  "pt": {
     hero: {
       title: "Você não está sozinho. FreedomPath caminha com você — todo dia.",
       subtitle: "Uma jornada diária de fé, ciência e ação prática para renovar sua mente e viver com liberdade interior.",
@@ -92,104 +92,6 @@ export const translations = {
     finalCTA: {
       title: "Hoje pode ser o primeiro dia do resto da sua vida em paz.",
       cta: "Quero Meus 7 Dias Grátis Agora",
-    },
-    footer: {
-      copyright: "FreedomPath © 2025-2026",
-      tagline: "Com amor e respeito",
-      support: "Suporte 24h • freedom@st0pporn.com",
-    },
-  },
-  "pt-PT": {
-    hero: {
-      title: "Não estás sozinho. FreedomPath caminha contigo — todos os dias.",
-      subtitle: "Uma jornada diária de fé, ciência e ação prática para renovares a tua mente e viveres com liberdade interior.",
-      cta: "Começar 7 Dias Grátis",
-    },
-    emotional: {
-      title: "Não estás sozinho nesta jornada",
-      cards: [
-        {
-          title: "Milhares já renovaram a mente",
-          description: "Fazes parte de uma comunidade global que acredita na transformação real através da fé e da ciência.",
-        },
-        {
-          title: "Já tentaste de tudo...",
-          description: "E ainda acordas cansado. Nós entendemos. Aqui encontras um caminho diferente, com amor e sem julgamento.",
-        },
-        {
-          title: "A paz está mais perto do que imaginas",
-          description: "Com 3-5 minutos por dia, podes começar a sentir a diferença. Pequenos passos, grandes mudanças.",
-        },
-      ],
-    },
-    tripod: {
-      title: "O Tripé que Realmente Funciona",
-      subtitle: "A combinação perfeita de fé, ciência e ação prática que já transformou milhares de vidas",
-      pillars: [
-        {
-          title: "Fé Cristã",
-          description: "Reflexões diárias baseadas na Bíblia NVI. A Palavra de Deus é a tua fundação e força.",
-        },
-        {
-          title: "Neurociência Simples",
-          description: "Entende como o teu cérebro funciona. Dopamina e plasticidade cerebral de forma clara e prática.",
-        },
-        {
-          title: "Ação Prática",
-          description: "Exercícios de 3-5 minutos por dia. Pequenas ações diárias que constroem grandes mudanças.",
-        },
-      ],
-    },
-    features: {
-      title: "Tudo que Recebes",
-      items: [
-        "✨ Acesso ilimitado e imediato a todo o conteúdo",
-        "⏰ Novo exercício + reflexão + áudio diário (nunca acaba)",
-        "🎯 Contador de tempo limpo em tempo real (anos/meses/dias/horas)",
-        "📚 Biblioteca completa (áudios, meditações guiadas, ebooks)",
-        "🎊 Confetti dourado + mensagem de vitória todos os dias",
-        "🎨 Tema automático Fogo ou Luz",
-        "📱 Funciona 100% offline após instalar",
-        "🔄 Atualizações vitalícias",
-      ],
-    },
-    pricing: {
-      title: "Escolhe o Teu Plano",
-      plans: [
-        {
-          name: "Mensal",
-          price: "€9",
-          period: "por mês",
-          cta: "Começar 7 Dias Grátis",
-          trial: "7 dias grátis para testar",
-        },
-        {
-          name: "6 Meses",
-          price: "€39",
-          period: "total (€6,50/mês)",
-          badge: "Mais Escolhido • 90 dias decisivos",
-          cta: "Começar 7 Dias Grátis",
-          trial: "7 dias grátis para testar",
-          popular: true,
-        },
-        {
-          name: "12 Meses",
-          price: "€69",
-          period: "total (€5,75/mês)",
-          badge: "Melhor Valor",
-          cta: "Começar 7 Dias Grátis",
-          trial: "7 dias grátis para testar",
-        },
-      ],
-      guarantee: [
-        "🎁 7 dias grátis para testar tudo",
-        "💳 Após o teste, o teu plano é ativado automaticamente",
-        "🚫 Cancela nos 7 dias de teste e não pagas nada",
-      ],
-    },
-    finalCTA: {
-      title: "Hoje pode ser o primeiro dia do resto da tua vida em paz.",
-      cta: "Quero os Meus 7 Dias Grátis Agora",
     },
     footer: {
       copyright: "FreedomPath © 2025-2026",
@@ -396,12 +298,22 @@ export const translations = {
 };
 
 export const detectLanguage = (): Language => {
+  // Check localStorage first
+  const savedLang = localStorage.getItem("freedompath-language") as Language | null;
+  if (savedLang && (savedLang === "pt" || savedLang === "en" || savedLang === "es")) {
+    return savedLang;
+  }
+  
+  // Fallback to browser detection
   const browserLang = navigator.language || navigator.languages?.[0] || "en";
   
-  if (browserLang.startsWith("pt-BR")) return "pt-BR";
-  if (browserLang.startsWith("pt")) return "pt-PT";
+  if (browserLang.startsWith("pt")) return "pt";
   if (browserLang.startsWith("es")) return "es";
   return "en";
+};
+
+export const saveLanguagePreference = (lang: Language): void => {
+  localStorage.setItem("freedompath-language", lang);
 };
 
 export const getTranslations = (lang: Language) => translations[lang];
