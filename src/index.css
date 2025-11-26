@@ -244,13 +244,3 @@ lovable-badge {
   position: absolute !important;
   z-index: -9999 !important;
 }
-/* ---break---
-*/
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
