@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { Hero } from "@/components/Hero";
 import { EmotionalConnection } from "@/components/EmotionalConnection";
 import { Tripod } from "@/components/Tripod";
@@ -10,11 +9,6 @@ import { useLanguage } from "@/contexts/LanguageContext";
 
 const Index = () => {
   const { translations } = useLanguage();
-
-  useEffect(() => {
-    // Aplicar tema Fire automaticamente
-    document.documentElement.classList.add("theme-fire");
-  }, []);
 
   return (
     <div className="min-h-screen">
