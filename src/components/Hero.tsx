@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroChains from "@/assets/hero-chains.jpg";
 import { Sparkles } from "lucide-react";
-
 interface HeroProps {
   t: {
     hero: {
@@ -11,37 +10,28 @@ interface HeroProps {
     };
   };
 }
-
-export const Hero = ({ t }: HeroProps) => {
+export const Hero = ({
+  t
+}: HeroProps) => {
   const scrollToPricing = () => {
-    document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth" });
+    document.getElementById("pricing")?.scrollIntoView({
+      behavior: "smooth"
+    });
   };
-
-  return (
-    <section className="hero-gradient relative min-h-[90vh] flex items-center justify-center px-4 py-20 overflow-hidden">
+  return <section className="hero-gradient relative min-h-[90vh] flex items-center justify-center px-4 py-20 overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 opacity-30">
-        <img
-          src={heroChains}
-          alt="Correntes se partindo em luz dourada"
-          className="w-full h-full object-cover"
-        />
+        <img src={heroChains} alt="Correntes se partindo em luz dourada" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/30 to-background"></div>
       </div>
 
       {/* Floating golden particles */}
       <div className="absolute inset-0 pointer-events-none">
-        {[...Array(20)].map((_, i) => (
-          <div
-            key={i}
-            className="absolute w-2 h-2 bg-primary-glow rounded-full animate-confetti-fall opacity-70"
-            style={{
-              left: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 5}s`,
-              animationDuration: `${3 + Math.random() * 4}s`,
-            }}
-          ></div>
-        ))}
+        {[...Array(20)].map((_, i) => <div key={i} className="absolute w-2 h-2 bg-primary-glow rounded-full animate-confetti-fall opacity-70" style={{
+        left: `${Math.random() * 100}%`,
+        animationDelay: `${Math.random() * 5}s`,
+        animationDuration: `${3 + Math.random() * 4}s`
+      }}></div>)}
       </div>
 
       {/* Content */}
@@ -64,19 +54,12 @@ export const Hero = ({ t }: HeroProps) => {
         </p>
 
         <div className="pt-8">
-          <Button
-            size="lg"
-            onClick={scrollToPricing}
-            className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-full shadow-glow hover:shadow-soft transition-all duration-300 hover:scale-105 font-semibold"
-          >
+          <Button size="lg" onClick={scrollToPricing} className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-full shadow-glow hover:shadow-soft transition-all duration-300 hover:scale-105 font-semibold">
             {t.hero.cta}
           </Button>
         </div>
 
-        <p className="text-sm text-muted-foreground pt-4">
-          ▶ 7 dias 100% grátis • Cancele quando quiser
-        </p>
+        
       </div>
-    </section>
-  );
+    </section>;
 };
