@@ -87,7 +87,6 @@ export const translations = {
         "▶ 7 dias 100% grátis",
         "▶ Depois só continua se quiser",
         "▶ Cancele quando quiser com 1 clique",
-        "▶ Garantia total de 30 dias – devolvemos cada centavo",
       ],
     },
     finalCTA: {
@@ -186,7 +185,6 @@ export const translations = {
         "▶ 7 dias 100% grátis",
         "▶ Depois só continua se quiseres",
         "▶ Cancela quando quiseres com 1 clique",
-        "▶ Garantia total de 30 dias – devolvemos cada cêntimo",
       ],
     },
     finalCTA: {
@@ -285,7 +283,6 @@ export const translations = {
         "▶ 7 days 100% free",
         "▶ Only continues if you want",
         "▶ Cancel anytime with 1 click",
-        "▶ Full 30-day guarantee – we refund every cent",
       ],
     },
     finalCTA: {
@@ -384,7 +381,6 @@ export const translations = {
         "▶ 7 días 100% gratis",
         "▶ Después solo continúa si quieres",
         "▶ Cancela cuando quieras con 1 clic",
-        "▶ Garantía total de 30 días – devolvemos cada centavo",
       ],
     },
     finalCTA: {
