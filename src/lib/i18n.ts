@@ -216,7 +216,7 @@ export const translations = {
         subtitle: "Mas não precisa ser assim. Existe um caminho.",
         insight: "Suas respostas mostram um padrão que conhecemos bem. Milhares de pessoas estavam exatamente onde você está — e encontraram liberdade. Você não precisa continuar sozinho nessa luta.",
         cta: "Descobrir a Solução",
-        support: "Se você está passando por um momento muito difícil, saiba que não está sozinho. CVV: 188 (24h, gratuito)",
+        support: "Se você está passando por um momento muito difícil, saiba que não está sozinho.",
         levels: {
           low: "Você está em zona de alerta. Ainda dá tempo de virar o jogo.",
           medium: "Você está em estágio avançado. Precisa de ajuda urgente.",
@@ -441,7 +441,7 @@ export const translations = {
         subtitle: "But it doesn't have to be this way. There is a path.",
         insight: "Your answers show a pattern we know well. Thousands of people were exactly where you are — and found freedom. You don't have to continue alone in this fight.",
         cta: "Discover the Solution",
-        support: "If you're going through a very difficult time, know that you're not alone. National Suicide Prevention Lifeline: 988 (24/7, free)",
+        support: "If you're going through a very difficult time, know that you're not alone.",
         levels: {
           low: "You're in the alert zone. There's still time to turn this around.",
           medium: "You're at an advanced stage. You need urgent help.",
@@ -666,7 +666,7 @@ export const translations = {
         subtitle: "Pero no tiene que ser así. Existe un camino.",
         insight: "Tus respuestas muestran un patrón que conocemos bien. Miles de personas estaban exactamente donde tú estás — y encontraron libertad. No tienes que seguir solo en esta lucha.",
         cta: "Descubrir la Solución",
-        support: "Si estás pasando por un momento muy difícil, sabe que no estás solo. Línea de ayuda: 024 (24h, gratuito)",
+        support: "Si estás pasando por un momento muy difícil, sabe que no estás solo.",
         levels: {
           low: "Estás en zona de alerta. Aún hay tiempo de cambiar el rumbo.",
           medium: "Estás en etapa avanzada. Necesitas ayuda urgente.",
