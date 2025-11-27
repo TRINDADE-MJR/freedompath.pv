@@ -55,6 +55,42 @@ export const translations = {
         "🔄 Atualizações vitalícias",
       ],
     },
+    testimonials: {
+      title: "Vidas Transformadas",
+      subtitle: "Histórias reais de pessoas que encontraram liberdade",
+      items: [
+        {
+          name: "João",
+          age: "28 anos",
+          duration: "127 dias limpo",
+          text: "Eu comecei aos 15, perdia 6 horas por dia em pornografia. A minha namorada quase me largou por causa da falta de conexão real. Hoje: Casei-me, abri o meu negócio e sinto energia que não tinha há anos. Há esperança irmãos!",
+        },
+        {
+          name: "Pedro",
+          age: "34 anos",
+          duration: "412 dias limpo",
+          text: "Cheguei destruído, divorciado, sem fé, sem energia. O vício consumia tudo. Hoje: Reconciliei-me com a minha filha, voltei à igreja e corro 10 km sem esforço. Deus usou o programa para me salvar.",
+        },
+        {
+          name: "Diego",
+          age: "19 anos",
+          duration: "94 dias limpo",
+          text: "Comecei aos 13, aos 18 achava impossível parar. Os impulsos me acordavam às 3h. Hoje: Acordo às 5h, estudo, treino e sinto-me homem de verdade pela primeira vez. O vício não manda mais.",
+        },
+        {
+          name: "Arielle",
+          age: "27 anos",
+          duration: "Livre desde 2023",
+          text: "Durante 9 anos eu vivi presa na pornografia e na masturbação compulsiva. Todo dia, às vezes três, quatro vezes. Eu me odiava. Em 2023 eu entreguei TUDO pra Jesus de verdade. Hoje sou livre!",
+        },
+        {
+          name: "Márcia",
+          age: "38 anos",
+          duration: "11 meses limpa",
+          text: "Meu maior medo era meus filhos descobrirem. Entrei num propósito de 21 dias de jejum e oração. No 19º dia senti literalmente as correntes caindo dos meus pulsos. Faz 11 meses que nem um pensamento impuro fica na minha mente.",
+        },
+      ],
+    },
     pricing: {
       title: "Escolha Seu Plano",
       plans: [
@@ -153,6 +189,42 @@ export const translations = {
         "🔄 Lifetime updates",
       ],
     },
+    testimonials: {
+      title: "Transformed Lives",
+      subtitle: "Real stories from people who found freedom",
+      items: [
+        {
+          name: "João",
+          age: "28 years old",
+          duration: "127 days clean",
+          text: "I started at 15, losing 6 hours a day to pornography. My girlfriend almost left me because of the lack of real connection. Today: I got married, started my own business, and feel energy I hadn't had in years. There is hope, brothers!",
+        },
+        {
+          name: "Pedro",
+          age: "34 years old",
+          duration: "412 days clean",
+          text: "I arrived destroyed, divorced, without faith, without energy. The addiction consumed everything. Today: I reconciled with my daughter, returned to church, and run 10 km effortlessly. God used this program to save me.",
+        },
+        {
+          name: "Diego",
+          age: "19 years old",
+          duration: "94 days clean",
+          text: "I started at 13, at 18 I thought it was impossible to stop. The urges would wake me up at 3 AM. Today: I wake up at 5 AM, study, work out, and feel like a real man for the first time. The addiction no longer controls me.",
+        },
+        {
+          name: "Arielle",
+          age: "27 years old",
+          duration: "Free since 2023",
+          text: "For 9 years I was trapped in pornography and compulsive masturbation. Every day, sometimes three, four times a day. I hated myself. In 2023 I surrendered EVERYTHING to Jesus for real. Today I am free!",
+        },
+        {
+          name: "Márcia",
+          age: "38 years old",
+          duration: "11 months clean",
+          text: "My biggest fear was my children finding out. I started a 21-day fasting and prayer purpose. On the 19th day, I literally felt the chains falling from my wrists. It's been 11 months without a single impure thought staying in my mind.",
+        },
+      ],
+    },
     pricing: {
       title: "Choose Your Plan",
       plans: [
@@ -249,6 +321,42 @@ export const translations = {
         "🎨 Tema automático Fuego o Luz",
         "📱 Funciona 100% offline después de instalar",
         "🔄 Actualizaciones de por vida",
+      ],
+    },
+    testimonials: {
+      title: "Vidas Transformadas",
+      subtitle: "Historias reales de personas que encontraron libertad",
+      items: [
+        {
+          name: "João",
+          age: "28 años",
+          duration: "127 días limpio",
+          text: "Empecé a los 15, perdía 6 horas al día en pornografía. Mi novia casi me dejó por la falta de conexión real. Hoy: Me casé, abrí mi negocio y siento energía que no tenía hace años. ¡Hay esperanza hermanos!",
+        },
+        {
+          name: "Pedro",
+          age: "34 años",
+          duration: "412 días limpio",
+          text: "Llegué destruido, divorciado, sin fe, sin energía. El vicio consumía todo. Hoy: Me reconcilié con mi hija, volví a la iglesia y corro 10 km sin esfuerzo. Dios usó el programa para salvarme.",
+        },
+        {
+          name: "Diego",
+          age: "19 años",
+          duration: "94 días limpio",
+          text: "Empecé a los 13, a los 18 creía imposible parar. Los impulsos me despertaban a las 3h. Hoy: Me despierto a las 5h, estudio, entreno y me siento hombre de verdad por primera vez. El vicio ya no manda.",
+        },
+        {
+          name: "Arielle",
+          age: "27 años",
+          duration: "Libre desde 2023",
+          text: "Durante 9 años viví presa en la pornografía y la masturbación compulsiva. Todos los días, a veces tres, cuatro veces. Me odiaba. En 2023 entregué TODO a Jesús de verdad. ¡Hoy soy libre!",
+        },
+        {
+          name: "Márcia",
+          age: "38 años",
+          duration: "11 meses limpia",
+          text: "Mi mayor miedo era que mis hijos lo descubrieran. Entré en un propósito de 21 días de ayuno y oración. En el día 19 sentí literalmente las cadenas cayendo de mis muñecas. Hace 11 meses que ni un pensamiento impuro permanece en mi mente.",
+        },
       ],
     },
     pricing: {
