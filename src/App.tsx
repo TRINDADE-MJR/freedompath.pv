@@ -5,6 +5,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
+import Quiz from "./pages/Quiz";
 import NotFound from "./pages/NotFound";
 import { LanguageSelector } from "@/components/LanguageSelector";
 import { LanguageContext } from "@/contexts/LanguageContext";
@@ -41,6 +42,7 @@ const App = () => {
           <LanguageContext.Provider value={{ language, translations, setLanguage }}>
             <Routes>
               <Route path="/" element={<Index />} />
+              <Route path="/quiz" element={<Quiz />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
