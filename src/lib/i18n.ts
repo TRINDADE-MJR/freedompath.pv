@@ -4,7 +4,7 @@ export const translations = {
   "pt": {
     hero: {
       title: "Você não está sozinho. FreedomPath caminha com você — todo dia.",
-      subtitle: "Uma jornada diária de fé, ciência e ação prática para renovar sua mente e viver com liberdade interior.",
+      subtitle: "Uma jornada diária de fé, neurociência e ação prática para renovar sua mente e viver com liberdade interior.",
       cta: "Começar 7 Dias Grátis",
     },
     emotional: {
