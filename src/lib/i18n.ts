@@ -182,7 +182,7 @@ export const translations = {
         {
           question: "Se você pudesse falar com Jesus agora mesmo, sem filtro, o que diria?",
           options: [
-            "\"Me mata logo ou me cura de uma vez\"",
+            "\"Me cura de uma vez\"",
             "\"Tira essa vontade da minha carne, eu imploro\"",
             "\"Me faz sentir nojo disso como sinto de cocô\"",
             "\"Me dá coragem de contar pra alguém sem morrer de vergonha\"",
@@ -407,7 +407,7 @@ export const translations = {
         {
           question: "If you could talk to Jesus right now, unfiltered, what would you say?",
           options: [
-            "\"Kill me now or heal me once and for all\"",
+            "\"Heal me once and for all\"",
             "\"Take this desire from my flesh, I beg you\"",
             "\"Make me feel disgust for this like I feel for garbage\"",
             "\"Give me courage to tell someone without dying of shame\"",
@@ -632,7 +632,7 @@ export const translations = {
         {
           question: "Si pudieras hablar con Jesús ahora mismo, sin filtro, ¿qué le dirías?",
           options: [
-            "\"Mátame ya o cúrame de una vez\"",
+            "\"Cúrame de una vez\"",
             "\"Quita este deseo de mi carne, te lo imploro\"",
             "\"Hazme sentir asco de esto como siento de la basura\"",
             "\"Dame valor para contarle a alguien sin morir de vergüenza\"",
