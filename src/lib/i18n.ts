@@ -26,7 +26,7 @@ export const translations = {
     },
     tripod: {
       title: "O Tripé que Realmente Funciona",
-      subtitle: "A combinação perfeita de fé, ciência e ação prática que já transformou milhares de vidas",
+      subtitle: "A combinação perfeita de fé, neurociência e ação prática que já transformou milhares de vidas",
       pillars: [
         {
           title: "Fé Cristã",
@@ -160,7 +160,7 @@ export const translations = {
     },
     tripod: {
       title: "The Tripod That Actually Works",
-      subtitle: "The perfect combination of faith, science, and practical action that has already transformed thousands of lives",
+      subtitle: "The perfect combination of faith, neuroscience, and practical action that has already transformed thousands of lives",
       pillars: [
         {
           title: "Christian Faith",
@@ -294,7 +294,7 @@ export const translations = {
     },
     tripod: {
       title: "El Trípode que Realmente Funciona",
-      subtitle: "La combinación perfecta de fe, ciencia y acción práctica que ya ha transformado miles de vidas",
+      subtitle: "La combinación perfecta de fe, neurociencia y acción práctica que ya ha transformado miles de vidas",
       pillars: [
         {
           title: "Fe Cristiana",
