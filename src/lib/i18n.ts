@@ -134,6 +134,97 @@ export const translations = {
       tagline: "Com amor e respeito",
       support: "Suporte 24h • freedom@st0pporn.com",
     },
+    quiz: {
+      title: "90 segundos → descubra o estágio real da tua luta",
+      description: "Mais de 3.200 pessoas já saíram exatamente desse lugar com esse método.",
+      progressLabel: "Pergunta {current} de {total}",
+      questions: [
+        {
+          question: "Quantas vezes por semana você ainda cai de verdade?",
+          options: [
+            "Só 1–2 vezes \"leves\"",
+            "3–5 vezes, já virou rotina",
+            "Todo dia, às vezes 2–3 vezes no mesmo dia",
+            "Perdi a conta, vivo nisso",
+            "Consigo dias limpo, mas quando cai é maratona de horas"
+          ]
+        },
+        {
+          question: "Quando tenta parar, quanto tempo dura antes da recaída mais forte?",
+          options: [
+            "Nem 24 horas – já abro o celular de novo",
+            "3–7 dias e desabo pior que antes",
+            "15–30 dias, acho que venci e volto com tudo",
+            "Chego a 60–90 dias, mas sempre cai de novo",
+            "Já fiquei mais de 6 meses limpo e voltei do zero"
+          ]
+        },
+        {
+          question: "Depois que cai, qual frase você já falou em voz alta ou gritou na mente?",
+          options: [
+            "\"Deus me odeia, não aguento mais essa culpa\"",
+            "\"Sou um lixo, nem mereço mais orar\"",
+            "\"Já quebrei tudo, tanto faz continuar\"",
+            "\"Se é pra ser assim, vou até o fim mesmo\"",
+            "\"Eu nasci pra isso, não tem mais jeito\""
+          ]
+        },
+        {
+          question: "Qual é o maior medo que esse vício já te causou de verdade?",
+          options: [
+            "Meu futuro marido/mulher descobrir tudo que já fiz",
+            "Meus filhos um dia abrirem meu histórico",
+            "Perder o chamado e nunca mais pregar/liderar",
+            "Morrer e ir pro inferno com isso ainda na vida",
+            "Ficar velho(a) e sozinho(a) porque ninguém aguenta perto de mim"
+          ]
+        },
+        {
+          question: "Se você pudesse falar com Jesus agora mesmo, sem filtro, o que diria?",
+          options: [
+            "\"Me mata logo ou me cura de uma vez\"",
+            "\"Tira essa vontade da minha carne, eu imploro\"",
+            "\"Me faz sentir nojo disso como sinto de cocô\"",
+            "\"Me dá coragem de contar pra alguém sem morrer de vergonha\"",
+            "\"Me devolve quem eu era antes disso tudo começar\""
+          ]
+        },
+        {
+          question: "Você já precisou subir o nível do conteúdo pra sentir o mesmo \"barato\"?",
+          options: [
+            "Sim, o que era pesado virou normal",
+            "Sim, e depois me dá nojo de mim mesmo(a)",
+            "Sim, já cheguei em coisas que antes jurava que nunca veria",
+            "Ainda não, mas sinto que falta pouco",
+            "Não, mas já sinto que o que vejo não faz mais efeito"
+          ]
+        },
+        {
+          question: "Última: você já fez ou pensou em fazer isso por causa da culpa?",
+          options: [
+            "Me cortei / me machuquei de propósito",
+            "Jejum extremo ou obras pra tentar \"pagar\"",
+            "Parei de orar e de ir na igreja por meses",
+            "Pensei em desistir de tudo mais de uma vez",
+            "Já quis sumir de vez"
+          ]
+        }
+      ],
+      result: {
+        calculating: "Analisando suas respostas...",
+        title: "Você está com {score}% de chances de continuar preso no vício se não agir agora",
+        subtitle: "Mas não precisa ser assim. Existe um caminho.",
+        insight: "Suas respostas mostram um padrão que conhecemos bem. Milhares de pessoas estavam exatamente onde você está — e encontraram liberdade. Você não precisa continuar sozinho nessa luta.",
+        cta: "Descobrir a Solução",
+        support: "Se você está passando por um momento muito difícil, saiba que não está sozinho. CVV: 188 (24h, gratuito)",
+        levels: {
+          low: "Você está em zona de alerta. Ainda dá tempo de virar o jogo.",
+          medium: "Você está em estágio avançado. Precisa de ajuda urgente.",
+          high: "Você está em crise profunda. Mas há esperança.",
+          critical: "Você está no limite. Jesus quer te libertar AGORA."
+        }
+      }
+    },
   },
   en: {
     hero: {
@@ -268,6 +359,97 @@ export const translations = {
       tagline: "With love and respect",
       support: "24/7 Support • freedom@st0pporn.com",
     },
+    quiz: {
+      title: "90 seconds → discover the real stage of your struggle",
+      description: "More than 3,200 people have already left this exact place with this method.",
+      progressLabel: "Question {current} of {total}",
+      questions: [
+        {
+          question: "How many times per week do you actually fall?",
+          options: [
+            "Only 1-2 \"light\" times",
+            "3-5 times, it's become routine",
+            "Every day, sometimes 2-3 times a day",
+            "Lost count, I live in this",
+            "I can stay clean for days, but when I fall it's a marathon of hours"
+          ]
+        },
+        {
+          question: "When you try to stop, how long before the strongest relapse?",
+          options: [
+            "Not even 24 hours – I open my phone again",
+            "3-7 days and I crash worse than before",
+            "15-30 days, I think I won and come back full force",
+            "I reach 60-90 days, but always fall again",
+            "I've been clean for more than 6 months and went back to zero"
+          ]
+        },
+        {
+          question: "After you fall, what phrase have you said out loud or screamed in your mind?",
+          options: [
+            "\"God hates me, I can't take this guilt anymore\"",
+            "\"I'm trash, I don't even deserve to pray anymore\"",
+            "\"I already broke everything, might as well continue\"",
+            "\"If it's going to be like this, I'll go all the way\"",
+            "\"I was born for this, there's no way out\""
+          ]
+        },
+        {
+          question: "What's the biggest fear this addiction has caused you?",
+          options: [
+            "My future husband/wife discovering everything I've done",
+            "My children one day opening my history",
+            "Losing my calling and never preaching/leading again",
+            "Dying and going to hell with this still in my life",
+            "Growing old and alone because no one can stand being near me"
+          ]
+        },
+        {
+          question: "If you could talk to Jesus right now, unfiltered, what would you say?",
+          options: [
+            "\"Kill me now or heal me once and for all\"",
+            "\"Take this desire from my flesh, I beg you\"",
+            "\"Make me feel disgust for this like I feel for garbage\"",
+            "\"Give me courage to tell someone without dying of shame\"",
+            "\"Give me back who I was before all this started\""
+          ]
+        },
+        {
+          question: "Have you needed to increase the level of content to feel the same \"high\"?",
+          options: [
+            "Yes, what was heavy became normal",
+            "Yes, and afterwards I'm disgusted with myself",
+            "Yes, I've reached things I swore I'd never see",
+            "Not yet, but I feel it won't be long",
+            "No, but I already feel what I see has no effect"
+          ]
+        },
+        {
+          question: "Last one: have you done or thought about doing this because of guilt?",
+          options: [
+            "I cut myself / hurt myself on purpose",
+            "Extreme fasting or works to try to \"pay\"",
+            "Stopped praying and going to church for months",
+            "Thought about giving up on everything more than once",
+            "I've wanted to disappear forever"
+          ]
+        }
+      ],
+      result: {
+        calculating: "Analyzing your answers...",
+        title: "You have a {score}% chance of staying trapped in addiction if you don't act now",
+        subtitle: "But it doesn't have to be this way. There is a path.",
+        insight: "Your answers show a pattern we know well. Thousands of people were exactly where you are — and found freedom. You don't have to continue alone in this fight.",
+        cta: "Discover the Solution",
+        support: "If you're going through a very difficult time, know that you're not alone. National Suicide Prevention Lifeline: 988 (24/7, free)",
+        levels: {
+          low: "You're in the alert zone. There's still time to turn this around.",
+          medium: "You're at an advanced stage. You need urgent help.",
+          high: "You're in deep crisis. But there is hope.",
+          critical: "You're at the limit. Jesus wants to set you free NOW."
+        }
+      }
+    },
   },
   es: {
     hero: {
@@ -401,6 +583,97 @@ export const translations = {
       copyright: "FreedomPath © 2025-2026",
       tagline: "Con amor y respeto",
       support: "Soporte 24h • freedom@st0pporn.com",
+    },
+    quiz: {
+      title: "90 segundos → descubre la etapa real de tu lucha",
+      description: "Más de 3.200 personas ya salieron exactamente de este lugar con este método.",
+      progressLabel: "Pregunta {current} de {total}",
+      questions: [
+        {
+          question: "¿Cuántas veces por semana todavía caes de verdad?",
+          options: [
+            "Solo 1-2 veces \"leves\"",
+            "3-5 veces, ya se volvió rutina",
+            "Todos los días, a veces 2-3 veces al día",
+            "Perdí la cuenta, vivo en esto",
+            "Consigo días limpio, pero cuando caigo es maratón de horas"
+          ]
+        },
+        {
+          question: "Cuando intentas parar, ¿cuánto tiempo dura antes de la recaída más fuerte?",
+          options: [
+            "Ni 24 horas – ya abro el celular de nuevo",
+            "3-7 días y caigo peor que antes",
+            "15-30 días, creo que gané y vuelvo con todo",
+            "Llego a 60-90 días, pero siempre caigo de nuevo",
+            "Ya estuve más de 6 meses limpio y volví a cero"
+          ]
+        },
+        {
+          question: "Después de caer, ¿qué frase has dicho en voz alta o gritado en tu mente?",
+          options: [
+            "\"Dios me odia, no aguanto más esta culpa\"",
+            "\"Soy basura, ni merezco orar más\"",
+            "\"Ya rompí todo, da igual continuar\"",
+            "\"Si va a ser así, iré hasta el final\"",
+            "\"Nací para esto, no hay salida\""
+          ]
+        },
+        {
+          question: "¿Cuál es el mayor miedo que este vicio te ha causado de verdad?",
+          options: [
+            "Que mi futuro esposo/esposa descubra todo lo que he hecho",
+            "Que mis hijos un día abran mi historial",
+            "Perder el llamado y nunca más predicar/liderar",
+            "Morir e ir al infierno con esto aún en mi vida",
+            "Envejecer solo(a) porque nadie aguanta estar cerca de mí"
+          ]
+        },
+        {
+          question: "Si pudieras hablar con Jesús ahora mismo, sin filtro, ¿qué le dirías?",
+          options: [
+            "\"Mátame ya o cúrame de una vez\"",
+            "\"Quita este deseo de mi carne, te lo imploro\"",
+            "\"Hazme sentir asco de esto como siento de la basura\"",
+            "\"Dame valor para contarle a alguien sin morir de vergüenza\"",
+            "\"Devuélveme quien era antes de que todo esto empezara\""
+          ]
+        },
+        {
+          question: "¿Has necesitado subir el nivel del contenido para sentir el mismo \"efecto\"?",
+          options: [
+            "Sí, lo que era fuerte se volvió normal",
+            "Sí, y después me da asco de mí mismo(a)",
+            "Sí, llegué a cosas que antes juraba que nunca vería",
+            "Todavía no, pero siento que falta poco",
+            "No, pero ya siento que lo que veo no hace efecto"
+          ]
+        },
+        {
+          question: "Última: ¿has hecho o pensado en hacer esto por la culpa?",
+          options: [
+            "Me corté / me lastimé a propósito",
+            "Ayuno extremo u obras para intentar \"pagar\"",
+            "Dejé de orar y de ir a la iglesia por meses",
+            "Pensé en rendirme de todo más de una vez",
+            "He querido desaparecer para siempre"
+          ]
+        }
+      ],
+      result: {
+        calculating: "Analizando tus respuestas...",
+        title: "Tienes un {score}% de probabilidades de seguir atrapado en el vicio si no actúas ahora",
+        subtitle: "Pero no tiene que ser así. Existe un camino.",
+        insight: "Tus respuestas muestran un patrón que conocemos bien. Miles de personas estaban exactamente donde tú estás — y encontraron libertad. No tienes que seguir solo en esta lucha.",
+        cta: "Descubrir la Solución",
+        support: "Si estás pasando por un momento muy difícil, sabe que no estás solo. Línea de ayuda: 024 (24h, gratuito)",
+        levels: {
+          low: "Estás en zona de alerta. Aún hay tiempo de cambiar el rumbo.",
+          medium: "Estás en etapa avanzada. Necesitas ayuda urgente.",
+          high: "Estás en crisis profunda. Pero hay esperanza.",
+          critical: "Estás en el límite. Jesús quiere liberarte AHORA."
+        }
+      }
     },
   },
 };
