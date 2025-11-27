@@ -184,7 +184,7 @@ export const translations = {
           options: [
             "\"Me cura de uma vez\"",
             "\"Tira essa vontade da minha carne, eu imploro\"",
-            "\"Me faz sentir nojo disso como sinto de cocô\"",
+            "\"Me ajuda, sozinho não consigo\"",
             "\"Me dá coragem de contar pra alguém sem morrer de vergonha\"",
             "\"Me devolve quem eu era antes disso tudo começar\""
           ]
@@ -409,7 +409,7 @@ export const translations = {
           options: [
             "\"Heal me once and for all\"",
             "\"Take this desire from my flesh, I beg you\"",
-            "\"Make me feel disgust for this like I feel for garbage\"",
+            "\"Help me, I can't do this alone\"",
             "\"Give me courage to tell someone without dying of shame\"",
             "\"Give me back who I was before all this started\""
           ]
@@ -634,7 +634,7 @@ export const translations = {
           options: [
             "\"Cúrame de una vez\"",
             "\"Quita este deseo de mi carne, te lo imploro\"",
-            "\"Hazme sentir asco de esto como siento de la basura\"",
+            "\"Ayúdame, solo no puedo\"",
             "\"Dame valor para contarle a alguien sin morir de vergüenza\"",
             "\"Devuélveme quien era antes de que todo esto empezara\""
           ]
