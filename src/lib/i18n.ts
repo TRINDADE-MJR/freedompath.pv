@@ -202,7 +202,7 @@ export const translations = {
         {
           question: "Última: você já fez ou pensou em fazer isso por causa da culpa?",
           options: [
-            "Me cortei / me machuquei de propósito",
+            "Quebrar o celular",
             "Jejum extremo ou obras pra tentar \"pagar\"",
             "Parei de orar e de ir na igreja por meses",
             "Pensei em desistir de tudo mais de uma vez",
@@ -427,7 +427,7 @@ export const translations = {
         {
           question: "Last one: have you done or thought about doing this because of guilt?",
           options: [
-            "I cut myself / hurt myself on purpose",
+            "Breaking my phone",
             "Extreme fasting or works to try to \"pay\"",
             "Stopped praying and going to church for months",
             "Thought about giving up on everything more than once",
@@ -652,7 +652,7 @@ export const translations = {
         {
           question: "Última: ¿has hecho o pensado en hacer esto por la culpa?",
           options: [
-            "Me corté / me lastimé a propósito",
+            "Romper el celular",
             "Ayuno extremo u obras para intentar \"pagar\"",
             "Dejé de orar y de ir a la iglesia por meses",
             "Pensé en rendirme de todo más de una vez",
