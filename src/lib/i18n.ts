@@ -190,7 +190,7 @@ export const translations = {
           ]
         },
         {
-          question: "Você já precisou subir o nível do conteúdo pra sentir o mesmo \"barato\"?",
+          question: "Você já precisou subir o nível do conteúdo pra sentir a mesma \"satisfação sexual\"?",
           options: [
             "Sim, o que era pesado virou normal",
             "Sim, e depois me dá nojo de mim mesmo(a)",
@@ -415,7 +415,7 @@ export const translations = {
           ]
         },
         {
-          question: "Have you needed to increase the level of content to feel the same \"high\"?",
+          question: "Have you needed to increase the level of content to feel the same \"sexual satisfaction\"?",
           options: [
             "Yes, what was heavy became normal",
             "Yes, and afterwards I'm disgusted with myself",
@@ -640,7 +640,7 @@ export const translations = {
           ]
         },
         {
-          question: "¿Has necesitado subir el nivel del contenido para sentir el mismo \"efecto\"?",
+          question: "¿Has necesitado subir el nivel del contenido para sentir la misma \"satisfacción sexual\"?",
           options: [
             "Sí, lo que era fuerte se volvió normal",
             "Sí, y después me da asco de mí mismo(a)",
