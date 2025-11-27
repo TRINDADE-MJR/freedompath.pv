@@ -30,7 +30,7 @@ export const translations = {
       pillars: [
         {
           title: "Fé Cristã",
-          description: "Reflexões diárias baseadas na Bíblia NVI. A Palavra de Deus é sua fundação e força.",
+          description: "Reflexões diárias baseadas na Bíblia. A Palavra de Deus é sua fundação e força.",
         },
         {
           title: "Neurociência Simples",
@@ -164,7 +164,7 @@ export const translations = {
       pillars: [
         {
           title: "Christian Faith",
-          description: "Daily reflections based on the NIV Bible. God's Word is your foundation and strength.",
+          description: "Daily reflections based on the Bible. God's Word is your foundation and strength.",
         },
         {
           title: "Simple Neuroscience",
@@ -298,7 +298,7 @@ export const translations = {
       pillars: [
         {
           title: "Fe Cristiana",
-          description: "Reflexiones diarias basadas en la Biblia NVI. La Palabra de Dios es tu fundamento y fortaleza.",
+          description: "Reflexiones diarias basadas en la Biblia. La Palabra de Dios es tu fundamento y fortaleza.",
         },
         {
           title: "Neurociencia Simple",
