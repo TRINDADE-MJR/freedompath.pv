@@ -22,10 +22,11 @@ interface PricingProps {
 }
 
 export const Pricing = ({ t }: PricingProps) => {
-  const handleCheckout = (planName: string) => {
-    // Aqui vai a integração com Stripe
-    console.log(`Checkout para: ${planName}`);
-    // window.location.href = `https://checkout.stripe.com/...`;
+  const handleCheckout = () => {
+    window.open(
+      "https://freedrompath.lemonsqueezy.com/buy/d0fc555d-5042-495e-8343-ab5532659f22?logo=0",
+      "_blank"
+    );
   };
 
   return (
@@ -73,7 +74,7 @@ export const Pricing = ({ t }: PricingProps) => {
 
                 <Button
                   size="lg"
-                  onClick={() => handleCheckout(plan.name)}
+                  onClick={handleCheckout}
                   className={`w-full rounded-full text-lg py-6 font-semibold transition-all duration-300 ${
                     plan.popular
                       ? "bg-gradient-to-r from-primary to-primary-glow hover:shadow-glow text-primary-foreground"
