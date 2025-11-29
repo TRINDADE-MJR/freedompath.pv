@@ -1,4 +1,5 @@
 import { Heart } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface FooterProps {
   t: {
@@ -6,6 +7,8 @@ interface FooterProps {
       copyright: string;
       tagline: string;
       support: string;
+      privacyPolicy: string;
+      termsOfUse: string;
     };
   };
 }
@@ -18,6 +21,21 @@ export const Footer = ({ t }: FooterProps) => {
           <span>{t.footer.copyright}</span>
           <Heart className="w-4 h-4 text-primary fill-primary animate-glow-pulse" />
           <span>{t.footer.tagline}</span>
+        </div>
+        <div className="flex items-center justify-center gap-4 text-sm">
+          <Link 
+            to="/privacy" 
+            className="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            {t.footer.privacyPolicy}
+          </Link>
+          <span className="text-muted-foreground/50">•</span>
+          <Link 
+            to="/terms" 
+            className="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            {t.footer.termsOfUse}
+          </Link>
         </div>
         <p className="text-sm text-muted-foreground">{t.footer.support}</p>
       </div>

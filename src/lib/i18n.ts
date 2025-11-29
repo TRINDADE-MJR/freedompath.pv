@@ -132,6 +132,106 @@ export const translations = {
       copyright: "FreedomPath © 2025-2026",
       tagline: "Com amor e respeito",
       support: "Suporte 24h • freedom@st0pporn.com",
+      privacyPolicy: "Política de Privacidade",
+      termsOfUse: "Termos de Uso",
+    },
+    privacy: {
+      title: "Política de Privacidade",
+      backHome: "Voltar ao início",
+      lastUpdated: "Última atualização: Novembro de 2024",
+      sections: {
+        intro: {
+          title: "Introdução",
+          content: "A FreedomPath está comprometida em proteger sua privacidade. Esta política descreve como coletamos, usamos e protegemos suas informações pessoais quando você utiliza nosso aplicativo e serviços.",
+        },
+        dataCollected: {
+          title: "Dados que Coletamos",
+          content: "Coletamos apenas os dados necessários para fornecer nossos serviços:",
+          items: [
+            "E-mail e nome (para criar sua conta)",
+            "Dados de progresso no app (dias limpo, conquistas)",
+            "Preferências de idioma e tema",
+            "Informações de pagamento (processadas pela Lemon Squeezy)",
+          ],
+        },
+        dataUsage: {
+          title: "Como Usamos Seus Dados",
+          content: "Utilizamos suas informações para:",
+          items: [
+            "Fornecer acesso ao conteúdo premium",
+            "Personalizar sua experiência no app",
+            "Enviar lembretes e notificações (se autorizados)",
+            "Melhorar nossos serviços",
+            "Processar pagamentos e assinaturas",
+          ],
+        },
+        payments: {
+          title: "Pagamentos",
+          content: "Todos os pagamentos são processados de forma segura pela Lemon Squeezy. Não armazenamos dados de cartão de crédito em nossos servidores. A Lemon Squeezy é certificada PCI-DSS e utiliza criptografia de ponta a ponta.",
+        },
+        cookies: {
+          title: "Cookies e Armazenamento Local",
+          content: "Utilizamos localStorage para salvar suas preferências (idioma, tema) e manter você conectado. Não utilizamos cookies de rastreamento de terceiros para publicidade.",
+        },
+        rights: {
+          title: "Seus Direitos",
+          content: "Você tem direito a:",
+          items: [
+            "Acessar seus dados pessoais",
+            "Corrigir informações incorretas",
+            "Solicitar exclusão de sua conta e dados",
+            "Exportar seus dados",
+            "Cancelar sua assinatura a qualquer momento",
+          ],
+        },
+        contact: {
+          title: "Contato",
+          content: "Para questões sobre privacidade ou para exercer seus direitos, entre em contato conosco:",
+        },
+      },
+    },
+    terms: {
+      title: "Termos de Uso",
+      backHome: "Voltar ao início",
+      lastUpdated: "Última atualização: Novembro de 2024",
+      sections: {
+        intro: {
+          title: "Aceitação dos Termos",
+          content: "Ao acessar e usar o FreedomPath Premium, você concorda com estes Termos de Uso. Se não concordar com qualquer parte destes termos, não utilize nossos serviços.",
+        },
+        service: {
+          title: "Descrição do Serviço",
+          content: "O FreedomPath Premium é um aplicativo de desenvolvimento pessoal que oferece conteúdo diário baseado em fé cristã, neurociência e ações práticas para ajudar na superação de vícios e renovação mental. O serviço inclui 365 dias de conteúdo, e-books, contador de progresso e funcionalidades offline.",
+        },
+        trial: {
+          title: "Período de Teste Gratuito",
+          content: "Oferecemos 7 dias de teste gratuito para todos os planos. O teste requer cadastro de cartão de crédito. Se você não cancelar dentro dos 7 dias, sua assinatura será ativada automaticamente e você será cobrado conforme o plano escolhido.",
+        },
+        billing: {
+          title: "Cobrança e Pagamentos",
+          content: "Após o período de teste de 7 dias, seu plano é ativado automaticamente. Os valores são cobrados conforme o plano selecionado: €9/mês (mensal), €39 total (6 meses) ou €69 total (12 meses). Os pagamentos são processados pela Lemon Squeezy.",
+        },
+        cancellation: {
+          title: "Cancelamento",
+          content: "Você pode cancelar sua assinatura a qualquer momento. Se cancelar durante o período de teste de 7 dias, não será cobrado. Após o período de teste, o cancelamento será efetivo no final do período de cobrança atual, e você manterá acesso até essa data.",
+        },
+        conduct: {
+          title: "Conduta do Usuário",
+          content: "Você concorda em usar o FreedomPath apenas para fins pessoais e legais. É proibido compartilhar credenciais de acesso, redistribuir conteúdo premium ou usar o serviço de forma que prejudique outros usuários ou a plataforma.",
+        },
+        liability: {
+          title: "Limitação de Responsabilidade",
+          content: "O FreedomPath é uma ferramenta de apoio e não substitui tratamento médico, psicológico ou espiritual profissional. Não garantimos resultados específicos. Em caso de crise, procure ajuda profissional imediatamente.",
+        },
+        changes: {
+          title: "Alterações nos Termos",
+          content: "Podemos atualizar estes termos periodicamente. Notificaremos sobre mudanças significativas por e-mail ou dentro do aplicativo. O uso continuado após alterações constitui aceitação dos novos termos.",
+        },
+        contact: {
+          title: "Contato",
+          content: "Para dúvidas sobre estes termos, entre em contato:",
+        },
+      },
     },
     quiz: {
       title: "90 segundos → descubra o estágio real da tua luta",
@@ -356,6 +456,106 @@ export const translations = {
       copyright: "FreedomPath © 2025-2026",
       tagline: "With love and respect",
       support: "24/7 Support • freedom@st0pporn.com",
+      privacyPolicy: "Privacy Policy",
+      termsOfUse: "Terms of Use",
+    },
+    privacy: {
+      title: "Privacy Policy",
+      backHome: "Back to home",
+      lastUpdated: "Last updated: November 2024",
+      sections: {
+        intro: {
+          title: "Introduction",
+          content: "FreedomPath is committed to protecting your privacy. This policy describes how we collect, use, and protect your personal information when you use our app and services.",
+        },
+        dataCollected: {
+          title: "Data We Collect",
+          content: "We only collect the data necessary to provide our services:",
+          items: [
+            "Email and name (to create your account)",
+            "App progress data (clean days, achievements)",
+            "Language and theme preferences",
+            "Payment information (processed by Lemon Squeezy)",
+          ],
+        },
+        dataUsage: {
+          title: "How We Use Your Data",
+          content: "We use your information to:",
+          items: [
+            "Provide access to premium content",
+            "Personalize your app experience",
+            "Send reminders and notifications (if authorized)",
+            "Improve our services",
+            "Process payments and subscriptions",
+          ],
+        },
+        payments: {
+          title: "Payments",
+          content: "All payments are securely processed by Lemon Squeezy. We do not store credit card data on our servers. Lemon Squeezy is PCI-DSS certified and uses end-to-end encryption.",
+        },
+        cookies: {
+          title: "Cookies and Local Storage",
+          content: "We use localStorage to save your preferences (language, theme) and keep you logged in. We do not use third-party tracking cookies for advertising.",
+        },
+        rights: {
+          title: "Your Rights",
+          content: "You have the right to:",
+          items: [
+            "Access your personal data",
+            "Correct incorrect information",
+            "Request deletion of your account and data",
+            "Export your data",
+            "Cancel your subscription at any time",
+          ],
+        },
+        contact: {
+          title: "Contact",
+          content: "For privacy questions or to exercise your rights, contact us:",
+        },
+      },
+    },
+    terms: {
+      title: "Terms of Use",
+      backHome: "Back to home",
+      lastUpdated: "Last updated: November 2024",
+      sections: {
+        intro: {
+          title: "Acceptance of Terms",
+          content: "By accessing and using FreedomPath Premium, you agree to these Terms of Use. If you do not agree with any part of these terms, do not use our services.",
+        },
+        service: {
+          title: "Service Description",
+          content: "FreedomPath Premium is a personal development app that offers daily content based on Christian faith, neuroscience, and practical actions to help overcome addictions and mental renewal. The service includes 365 days of content, e-books, progress counter, and offline features.",
+        },
+        trial: {
+          title: "Free Trial Period",
+          content: "We offer a 7-day free trial for all plans. The trial requires credit card registration. If you don't cancel within 7 days, your subscription will be automatically activated and you will be charged according to your chosen plan.",
+        },
+        billing: {
+          title: "Billing and Payments",
+          content: "After the 7-day trial period, your plan is automatically activated. Amounts are charged according to the selected plan: €9/month (monthly), €39 total (6 months) or €69 total (12 months). Payments are processed by Lemon Squeezy.",
+        },
+        cancellation: {
+          title: "Cancellation",
+          content: "You can cancel your subscription at any time. If you cancel during the 7-day trial period, you will not be charged. After the trial period, cancellation will be effective at the end of the current billing period, and you will maintain access until that date.",
+        },
+        conduct: {
+          title: "User Conduct",
+          content: "You agree to use FreedomPath only for personal and legal purposes. It is prohibited to share login credentials, redistribute premium content, or use the service in a way that harms other users or the platform.",
+        },
+        liability: {
+          title: "Limitation of Liability",
+          content: "FreedomPath is a support tool and does not replace professional medical, psychological, or spiritual treatment. We do not guarantee specific results. In case of crisis, seek professional help immediately.",
+        },
+        changes: {
+          title: "Changes to Terms",
+          content: "We may update these terms periodically. We will notify you of significant changes by email or within the app. Continued use after changes constitutes acceptance of the new terms.",
+        },
+        contact: {
+          title: "Contact",
+          content: "For questions about these terms, contact:",
+        },
+      },
     },
     quiz: {
       title: "90 seconds → discover the real stage of your struggle",
@@ -580,6 +780,106 @@ export const translations = {
       copyright: "FreedomPath © 2025-2026",
       tagline: "Con amor y respeto",
       support: "Soporte 24h • freedom@st0pporn.com",
+      privacyPolicy: "Política de Privacidad",
+      termsOfUse: "Términos de Uso",
+    },
+    privacy: {
+      title: "Política de Privacidad",
+      backHome: "Volver al inicio",
+      lastUpdated: "Última actualización: Noviembre de 2024",
+      sections: {
+        intro: {
+          title: "Introducción",
+          content: "FreedomPath está comprometido con proteger tu privacidad. Esta política describe cómo recopilamos, usamos y protegemos tu información personal cuando utilizas nuestra aplicación y servicios.",
+        },
+        dataCollected: {
+          title: "Datos que Recopilamos",
+          content: "Solo recopilamos los datos necesarios para proporcionar nuestros servicios:",
+          items: [
+            "Correo electrónico y nombre (para crear tu cuenta)",
+            "Datos de progreso en la app (días limpio, logros)",
+            "Preferencias de idioma y tema",
+            "Información de pago (procesada por Lemon Squeezy)",
+          ],
+        },
+        dataUsage: {
+          title: "Cómo Usamos Tus Datos",
+          content: "Utilizamos tu información para:",
+          items: [
+            "Proporcionar acceso al contenido premium",
+            "Personalizar tu experiencia en la app",
+            "Enviar recordatorios y notificaciones (si autorizas)",
+            "Mejorar nuestros servicios",
+            "Procesar pagos y suscripciones",
+          ],
+        },
+        payments: {
+          title: "Pagos",
+          content: "Todos los pagos son procesados de forma segura por Lemon Squeezy. No almacenamos datos de tarjeta de crédito en nuestros servidores. Lemon Squeezy está certificado PCI-DSS y utiliza cifrado de extremo a extremo.",
+        },
+        cookies: {
+          title: "Cookies y Almacenamiento Local",
+          content: "Utilizamos localStorage para guardar tus preferencias (idioma, tema) y mantenerte conectado. No utilizamos cookies de rastreo de terceros para publicidad.",
+        },
+        rights: {
+          title: "Tus Derechos",
+          content: "Tienes derecho a:",
+          items: [
+            "Acceder a tus datos personales",
+            "Corregir información incorrecta",
+            "Solicitar eliminación de tu cuenta y datos",
+            "Exportar tus datos",
+            "Cancelar tu suscripción en cualquier momento",
+          ],
+        },
+        contact: {
+          title: "Contacto",
+          content: "Para preguntas sobre privacidad o para ejercer tus derechos, contáctanos:",
+        },
+      },
+    },
+    terms: {
+      title: "Términos de Uso",
+      backHome: "Volver al inicio",
+      lastUpdated: "Última actualización: Noviembre de 2024",
+      sections: {
+        intro: {
+          title: "Aceptación de los Términos",
+          content: "Al acceder y usar FreedomPath Premium, aceptas estos Términos de Uso. Si no estás de acuerdo con alguna parte de estos términos, no utilices nuestros servicios.",
+        },
+        service: {
+          title: "Descripción del Servicio",
+          content: "FreedomPath Premium es una aplicación de desarrollo personal que ofrece contenido diario basado en fe cristiana, neurociencia y acciones prácticas para ayudar en la superación de adicciones y renovación mental. El servicio incluye 365 días de contenido, e-books, contador de progreso y funcionalidades offline.",
+        },
+        trial: {
+          title: "Período de Prueba Gratuito",
+          content: "Ofrecemos 7 días de prueba gratuita para todos los planes. La prueba requiere registro de tarjeta de crédito. Si no cancelas dentro de los 7 días, tu suscripción se activará automáticamente y se te cobrará según el plan elegido.",
+        },
+        billing: {
+          title: "Facturación y Pagos",
+          content: "Después del período de prueba de 7 días, tu plan se activa automáticamente. Los valores se cobran según el plan seleccionado: €9/mes (mensual), €39 total (6 meses) o €69 total (12 meses). Los pagos son procesados por Lemon Squeezy.",
+        },
+        cancellation: {
+          title: "Cancelación",
+          content: "Puedes cancelar tu suscripción en cualquier momento. Si cancelas durante el período de prueba de 7 días, no se te cobrará. Después del período de prueba, la cancelación será efectiva al final del período de facturación actual, y mantendrás acceso hasta esa fecha.",
+        },
+        conduct: {
+          title: "Conducta del Usuario",
+          content: "Aceptas usar FreedomPath solo para fines personales y legales. Está prohibido compartir credenciales de acceso, redistribuir contenido premium o usar el servicio de forma que perjudique a otros usuarios o a la plataforma.",
+        },
+        liability: {
+          title: "Limitación de Responsabilidad",
+          content: "FreedomPath es una herramienta de apoyo y no sustituye tratamiento médico, psicológico o espiritual profesional. No garantizamos resultados específicos. En caso de crisis, busca ayuda profesional inmediatamente.",
+        },
+        changes: {
+          title: "Cambios en los Términos",
+          content: "Podemos actualizar estos términos periódicamente. Te notificaremos sobre cambios significativos por correo electrónico o dentro de la aplicación. El uso continuado después de cambios constituye aceptación de los nuevos términos.",
+        },
+        contact: {
+          title: "Contacto",
+          content: "Para preguntas sobre estos términos, contáctanos:",
+        },
+      },
     },
     quiz: {
       title: "90 segundos → descubre la etapa real de tu lucha",
