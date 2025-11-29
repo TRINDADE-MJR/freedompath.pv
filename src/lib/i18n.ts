@@ -124,10 +124,12 @@ export const translations = {
         "💳 Após o teste, seu plano é ativado automaticamente",
         "🚫 Cancele nos 7 dias de teste e não paga nada",
       ],
+      scarcity: "⏰ Preços especiais de lançamento só para as primeiras 1000 pessoas. Depois voltam ao valor normal.",
     },
     finalCTA: {
       title: "Hoje pode ser o primeiro dia do resto da sua vida em paz.",
       cta: "Quero Meus 7 Dias Grátis Agora",
+      trial: "▶ 7 dias 100% grátis",
     },
     footer: {
       copyright: "FreedomPath © 2025-2026",
@@ -349,10 +351,12 @@ export const translations = {
         "💳 After trial, your plan activates automatically",
         "🚫 Cancel within 7 days and pay nothing",
       ],
+      scarcity: "⏰ Special launch pricing only for the first 1000 people. After that, prices return to normal.",
     },
     finalCTA: {
       title: "Today could be the first day of the rest of your life in peace.",
       cta: "I Want My 7 Free Days Now",
+      trial: "▶ 7 days 100% free",
     },
     footer: {
       copyright: "FreedomPath © 2025-2026",
@@ -574,10 +578,12 @@ export const translations = {
         "💳 Después del período de prueba, tu plan se activa automáticamente",
         "🚫 Cancela en los 7 días de prueba y no pagas nada",
       ],
+      scarcity: "⏰ Precios especiales de lanzamiento solo para las primeras 1000 personas. Después vuelven al precio normal.",
     },
     finalCTA: {
       title: "Hoy puede ser el primer día del resto de tu vida en paz.",
       cta: "Quiero Mis 7 Días Gratis Ahora",
+      trial: "▶ 7 días 100% gratis",
     },
     footer: {
       copyright: "FreedomPath © 2025-2026",

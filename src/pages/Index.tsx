@@ -20,6 +20,7 @@ const Index = () => {
       <Testimonials t={translations} />
       <Pricing t={translations} />
       <FinalCTA t={translations} />
+      <Footer t={translations} />
     </div>
   );
 };

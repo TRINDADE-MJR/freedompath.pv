@@ -6,9 +6,10 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
+  type CarouselApi,
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 
 interface Testimonial {
   name: string;
@@ -28,9 +29,21 @@ interface TestimonialsProps {
 }
 
 export const Testimonials = ({ t }: TestimonialsProps) => {
+  const [api, setApi] = useState<CarouselApi>();
+  const [current, setCurrent] = useState(0);
   const plugin = useRef(
     Autoplay({ delay: 6000, stopOnInteraction: true })
   );
+
+  useEffect(() => {
+    if (!api) return;
+
+    setCurrent(api.selectedScrollSnap());
+
+    api.on("select", () => {
+      setCurrent(api.selectedScrollSnap());
+    });
+  }, [api]);
 
   return (
     <section className="py-16 md:py-24 px-4 bg-gradient-to-b from-background to-muted/30">
@@ -50,6 +63,7 @@ export const Testimonials = ({ t }: TestimonialsProps) => {
             loop: true,
           }}
           plugins={[plugin.current]}
+          setApi={setApi}
           className="w-full"
         >
           <CarouselContent className="-ml-2 md:-ml-4">
@@ -85,12 +99,18 @@ export const Testimonials = ({ t }: TestimonialsProps) => {
           <CarouselNext className="hidden md:flex -right-12" />
         </Carousel>
 
-        {/* Mobile dots indicator */}
+        {/* Mobile dots indicator with active state */}
         <div className="flex justify-center gap-2 mt-6 md:hidden">
           {t.testimonials.items.map((_, index) => (
-            <div
+            <button
               key={index}
-              className="w-2 h-2 rounded-full bg-primary/30"
+              onClick={() => api?.scrollTo(index)}
+              className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                current === index 
+                  ? "bg-primary w-4" 
+                  : "bg-primary/30"
+              }`}
+              aria-label={`Go to slide ${index + 1}`}
             />
           ))}
         </div>
