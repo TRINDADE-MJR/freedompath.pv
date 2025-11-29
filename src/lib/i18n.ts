@@ -135,7 +135,7 @@ export const translations = {
     },
     quiz: {
       title: "90 segundos → descubra o estágio real da tua luta",
-      description: "Mais de 3.200 pessoas já saíram exatamente desse lugar com esse método.",
+      description: "Muitas pessoas já saíram exatamente desse lugar com esse método.",
       progressLabel: "Pergunta {current} de {total}",
       questions: [
         {
@@ -359,7 +359,7 @@ export const translations = {
     },
     quiz: {
       title: "90 seconds → discover the real stage of your struggle",
-      description: "More than 3,200 people have already left this exact place with this method.",
+      description: "Many people have already left this exact place with this method.",
       progressLabel: "Question {current} of {total}",
       questions: [
         {
@@ -583,7 +583,7 @@ export const translations = {
     },
     quiz: {
       title: "90 segundos → descubre la etapa real de tu lucha",
-      description: "Más de 3.200 personas ya salieron exactamente de este lugar con este método.",
+      description: "Muchas personas ya salieron exactamente de este lugar con este método.",
       progressLabel: "Pregunta {current} de {total}",
       questions: [
         {
