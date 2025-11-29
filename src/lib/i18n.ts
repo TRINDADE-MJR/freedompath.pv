@@ -45,14 +45,11 @@ export const translations = {
     features: {
       title: "Tudo que Você Recebe",
       items: [
-        "✨ Acesso ilimitado e imediato a todo o conteúdo",
-        "⏰ Novo exercício + reflexão + áudio diário (nunca acaba)",
-        "🎯 Contador de tempo limpo em tempo real (anos/meses/dias/horas)",
-        "📚 Biblioteca completa (áudios, meditações guiadas, ebooks)",
-        "🎊 Confetti dourado + mensagem de vitória todo dia",
-        "🎨 Tema automático Fogo ou Luz",
-        "📱 Funciona 100% offline após instalar",
-        "🔄 Atualizações vitalícias",
+        "📅 365 dias de conteúdo pronto – abre o app e já sabe exatamente o que fazer hoje",
+        "⏱️ Só 5 minutos por dia – versículo + ciência + tarefa prática",
+        "🔥 Contador de tempo limpo + streak de fogo + troféus motivadores",
+        "📚 6 e-books premium já dentro do app (offline, 3 idiomas)",
+        "📱 Instala no celular em 10 segundos e funciona sem internet",
       ],
     },
     testimonials: {
@@ -272,14 +269,11 @@ export const translations = {
     features: {
       title: "Everything You Get",
       items: [
-        "✨ Unlimited and immediate access to all content",
-        "⏰ New exercise + reflection + daily audio (never ends)",
-        "🎯 Real-time clean counter (years/months/days/hours)",
-        "📚 Complete library (audios, guided meditations, ebooks)",
-        "🎊 Golden confetti + victory message every day",
-        "🎨 Automatic Fire or Light theme",
-        "📱 Works 100% offline after install",
-        "🔄 Lifetime updates",
+        "📅 365 days of ready content – open the app and know exactly what to do today",
+        "⏱️ Just 5 minutes a day – verse + science + practical task",
+        "🔥 Clean time counter + fire streak + motivational trophies",
+        "📚 6 premium e-books already inside the app (offline, 3 languages)",
+        "📱 Install on your phone in 10 seconds and works without internet",
       ],
     },
     testimonials: {
@@ -499,14 +493,11 @@ export const translations = {
     features: {
       title: "Todo lo que Recibes",
       items: [
-        "✨ Acceso ilimitado e inmediato a todo el contenido",
-        "⏰ Nuevo ejercicio + reflexión + audio diario (nunca termina)",
-        "🎯 Contador de tiempo limpio en tiempo real (años/meses/días/horas)",
-        "📚 Biblioteca completa (audios, meditaciones guiadas, ebooks)",
-        "🎊 Confeti dorado + mensaje de victoria todos los días",
-        "🎨 Tema automático Fuego o Luz",
-        "📱 Funciona 100% offline después de instalar",
-        "🔄 Actualizaciones de por vida",
+        "📅 365 días de contenido listo – abre la app y ya sabes exactamente qué hacer hoy",
+        "⏱️ Solo 5 minutos al día – versículo + ciencia + tarea práctica",
+        "🔥 Contador de tiempo limpio + racha de fuego + trofeos motivadores",
+        "📚 6 e-books premium ya dentro de la app (offline, 3 idiomas)",
+        "📱 Instala en el celular en 10 segundos y funciona sin internet",
       ],
     },
     testimonials: {
