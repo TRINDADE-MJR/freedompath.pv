@@ -1,13 +1,10 @@
 import { Card } from "@/components/ui/card";
 import { 
-  Check, 
+  Calendar, 
   Clock, 
-  HeadphonesIcon, 
-  BookMarked, 
-  Sparkles, 
-  Moon, 
-  Wifi, 
-  Zap 
+  Flame, 
+  BookOpen, 
+  Smartphone
 } from "lucide-react";
 
 interface FeaturesProps {
@@ -21,14 +18,11 @@ interface FeaturesProps {
 
 export const Features = ({ t }: FeaturesProps) => {
   const icons = [
-    Zap,
+    Calendar,
     Clock,
-    HeadphonesIcon,
-    BookMarked,
-    Sparkles,
-    Moon,
-    Wifi,
-    Check,
+    Flame,
+    BookOpen,
+    Smartphone,
   ];
 
   return (
