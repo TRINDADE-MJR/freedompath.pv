@@ -7,6 +7,7 @@ interface PricingProps {
   t: {
     pricing: {
       title: string;
+      scarcity: string;
       plans: Array<{
         name: string;
         price: string;
@@ -42,8 +43,8 @@ export const Pricing = ({ t }: PricingProps) => {
               key={index}
               className={`relative p-6 md:p-8 transition-all duration-300 ${
                 plan.popular
-                  ? "border-primary shadow-glow scale-105 md:scale-110 bg-gradient-to-br from-card to-primary/5"
-                  : "border-primary/10 hover:shadow-card hover:scale-105"
+                  ? "border-primary shadow-glow md:scale-105 lg:scale-110 bg-gradient-to-br from-card to-primary/5"
+                  : "border-primary/10 hover:shadow-card md:hover:scale-105"
               }`}
             >
               {plan.badge && (
@@ -102,9 +103,8 @@ export const Pricing = ({ t }: PricingProps) => {
 
         {/* Scarcity */}
         <div className="text-center mt-8 p-4 bg-primary/10 rounded-lg border border-primary/20 max-w-2xl mx-auto">
-          <p className="text-foreground font-medium">
-            ⏰ Preços especiais de lançamento só para as primeiras 1000 pessoas.
-            Depois voltam ao valor normal.
+          <p className="text-foreground font-medium text-sm md:text-base">
+            {t.pricing.scarcity}
           </p>
         </div>
       </div>

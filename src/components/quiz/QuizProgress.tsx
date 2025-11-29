@@ -1,5 +1,3 @@
-import { Progress } from "@/components/ui/progress";
-
 interface QuizProgressProps {
   currentQuestion: number;
   totalQuestions: number;
@@ -15,13 +13,9 @@ export const QuizProgress = ({ currentQuestion, totalQuestions, label }: QuizPro
         <span className="text-muted-foreground font-medium">{label}</span>
         <span className="gradient-text font-bold">{Math.round(progress)}%</span>
       </div>
-      <div className="relative">
-        <Progress 
-          value={progress} 
-          className="h-3 bg-muted/30 rounded-full overflow-hidden"
-        />
+      <div className="h-3 bg-muted/30 rounded-full overflow-hidden">
         <div 
-          className="absolute top-0 left-0 h-3 rounded-full transition-all duration-500 ease-out"
+          className="h-full rounded-full transition-all duration-500 ease-out"
           style={{ 
             width: `${progress}%`,
             background: 'var(--gradient-feminine)'
