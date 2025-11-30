@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Heart } from "lucide-react";
 
@@ -24,6 +25,7 @@ interface QuizResultProps {
 }
 
 export const QuizResult = ({ score, t, showSupportMessage }: QuizResultProps) => {
+  const navigate = useNavigate();
   const [displayScore, setDisplayScore] = useState(0);
   const [isCalculating, setIsCalculating] = useState(true);
   const [showContent, setShowContent] = useState(false);
@@ -56,10 +58,10 @@ export const QuizResult = ({ score, t, showSupportMessage }: QuizResultProps) =>
   };
 
   const handleCTA = () => {
-    window.open(
-      "https://freedrompath.lemonsqueezy.com/buy/d0fc555d-5042-495e-8343-ab5532659f22?logo=0",
-      "_blank"
-    );
+    navigate("/");
+    setTimeout(() => {
+      document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth" });
+    }, 100);
   };
 
   // Calculating animation
