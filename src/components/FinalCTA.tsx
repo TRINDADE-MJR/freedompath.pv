@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import handsPeace from "@/assets/hands-peace.jpg";
+import { useNavigate } from "react-router-dom";
 
 interface FinalCTAProps {
   t: {
@@ -12,10 +13,10 @@ interface FinalCTAProps {
 }
 
 export const FinalCTA = ({ t }: FinalCTAProps) => {
-  const scrollToPricing = () => {
-    document.getElementById("pricing")?.scrollIntoView({
-      behavior: "smooth"
-    });
+  const navigate = useNavigate();
+  
+  const goToQuiz = () => {
+    navigate("/quiz");
   };
 
   return (
@@ -38,7 +39,7 @@ export const FinalCTA = ({ t }: FinalCTAProps) => {
 
         <Button 
           size="lg" 
-          onClick={scrollToPricing} 
+          onClick={goToQuiz} 
           className="bg-gradient-to-r from-primary to-primary-glow hover:shadow-glow text-primary-foreground text-base sm:text-lg md:text-xl px-6 sm:px-8 md:px-12 py-5 sm:py-6 md:py-8 rounded-full font-semibold transition-all duration-300 hover:scale-105 md:hover:scale-110 shadow-glow"
         >
           {t.finalCTA.cta}

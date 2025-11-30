@@ -138,7 +138,7 @@ export const translations = {
     privacy: {
       title: "Política de Privacidade",
       backHome: "Voltar ao início",
-      lastUpdated: "Última atualização: Novembro de 2024",
+      lastUpdated: "Última atualização: Novembro de 2025",
       sections: {
         intro: {
           title: "Introdução",
@@ -193,7 +193,7 @@ export const translations = {
     terms: {
       title: "Termos de Uso",
       backHome: "Voltar ao início",
-      lastUpdated: "Última atualização: Novembro de 2024",
+      lastUpdated: "Última atualização: Novembro de 2025",
       sections: {
         intro: {
           title: "Aceitação dos Termos",
@@ -462,7 +462,7 @@ export const translations = {
     privacy: {
       title: "Privacy Policy",
       backHome: "Back to home",
-      lastUpdated: "Last updated: November 2024",
+      lastUpdated: "Last updated: November 2025",
       sections: {
         intro: {
           title: "Introduction",
@@ -517,7 +517,7 @@ export const translations = {
     terms: {
       title: "Terms of Use",
       backHome: "Back to home",
-      lastUpdated: "Last updated: November 2024",
+      lastUpdated: "Last updated: November 2025",
       sections: {
         intro: {
           title: "Acceptance of Terms",
@@ -786,7 +786,7 @@ export const translations = {
     privacy: {
       title: "Política de Privacidad",
       backHome: "Volver al inicio",
-      lastUpdated: "Última actualización: Noviembre de 2024",
+      lastUpdated: "Última actualización: Noviembre de 2025",
       sections: {
         intro: {
           title: "Introducción",
@@ -841,7 +841,7 @@ export const translations = {
     terms: {
       title: "Términos de Uso",
       backHome: "Volver al inicio",
-      lastUpdated: "Última actualización: Noviembre de 2024",
+      lastUpdated: "Última actualización: Noviembre de 2025",
       sections: {
         intro: {
           title: "Aceptación de los Términos",

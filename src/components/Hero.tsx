@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import heroChains from "@/assets/hero-chains.jpg";
 import { Sparkles } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+
 interface HeroProps {
   t: {
     hero: {
@@ -10,13 +12,12 @@ interface HeroProps {
     };
   };
 }
-export const Hero = ({
-  t
-}: HeroProps) => {
-  const scrollToPricing = () => {
-    document.getElementById("pricing")?.scrollIntoView({
-      behavior: "smooth"
-    });
+
+export const Hero = ({ t }: HeroProps) => {
+  const navigate = useNavigate();
+  
+  const goToQuiz = () => {
+    navigate("/quiz");
   };
   return <section className="hero-gradient relative min-h-[90vh] flex items-center justify-center px-4 py-20 overflow-hidden">
       {/* Background Image */}
@@ -54,7 +55,7 @@ export const Hero = ({
         </p>
 
         <div className="pt-8">
-          <Button size="lg" onClick={scrollToPricing} className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-full shadow-glow hover:shadow-soft transition-all duration-300 hover:scale-105 font-semibold">
+          <Button size="lg" onClick={goToQuiz} className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-full shadow-glow hover:shadow-soft transition-all duration-300 hover:scale-105 font-semibold">
             {t.hero.cta}
           </Button>
         </div>
