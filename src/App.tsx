@@ -43,8 +43,8 @@ const App = () => {
         <BrowserRouter>
           <LanguageContext.Provider value={{ language, translations, setLanguage }}>
             <Routes>
-              <Route path="/" element={<Index />} />
-              <Route path="/quiz" element={<Quiz />} />
+              <Route path="/" element={<Quiz />} />
+              <Route path="/sales" element={<Index />} />
               <Route path="/privacy" element={<Privacy />} />
               <Route path="/terms" element={<Terms />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
