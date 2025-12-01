@@ -25,7 +25,7 @@ interface PricingProps {
 export const Pricing = ({ t }: PricingProps) => {
   const handleCheckout = () => {
     window.open(
-      "https://freedrompath.lemonsqueezy.com/buy/d0fc555d-5042-495e-8343-ab5532659f22?logo=0",
+      "https://freedrompath.lemonsqueezy.com/buy/bf52c61d-e35e-4f16-a750-c99e0d602862?logo=0",
       "_blank"
     );
   };
