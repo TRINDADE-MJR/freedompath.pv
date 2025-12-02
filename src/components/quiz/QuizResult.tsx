@@ -99,9 +99,9 @@ export const QuizResult = ({ score, t, showSupportMessage }: QuizResultProps) =>
             className="absolute w-3 h-3 rounded-full animate-confetti-fall"
             style={{
               left: `${Math.random() * 100}%`,
-              background: i % 2 === 0 
-                ? 'hsl(45 93% 58%)' 
-                : 'hsl(332 81% 60%)',
+            background: i % 2 === 0 
+              ? 'hsl(45 93% 58%)' 
+              : 'hsl(24 95% 40%)',
               animationDelay: `${Math.random() * 2}s`,
               animationDuration: `${3 + Math.random() * 3}s`
             }}
@@ -133,7 +133,7 @@ export const QuizResult = ({ score, t, showSupportMessage }: QuizResultProps) =>
           />
           <defs>
             <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" stopColor="hsl(332 81% 60%)" />
+              <stop offset="0%" stopColor="hsl(24 95% 40%)" />
               <stop offset="100%" stopColor="hsl(45 93% 58%)" />
             </linearGradient>
           </defs>
