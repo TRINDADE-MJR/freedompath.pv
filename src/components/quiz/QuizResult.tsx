@@ -59,9 +59,6 @@ export const QuizResult = ({ score, t, showSupportMessage }: QuizResultProps) =>
 
   const handleCTA = () => {
     navigate("/sales");
-    setTimeout(() => {
-      document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth" });
-    }, 100);
   };
 
   // Calculating animation
