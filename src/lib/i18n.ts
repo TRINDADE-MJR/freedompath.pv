@@ -93,15 +93,15 @@ export const translations = {
       plans: [
         {
           name: "Mensal",
-          price: "€9",
+          price: "€5,99",
           period: "por mês",
           cta: "Começar 7 Dias Grátis",
           trial: "7 dias grátis para testar",
         },
         {
           name: "6 Meses",
-          price: "€39",
-          period: "total (€6,50/mês)",
+          price: "€29",
+          period: "total (€4,83/mês) • 19% OFF",
           badge: "Mais Escolhido • 90 dias decisivos",
           cta: "Começar 7 Dias Grátis",
           trial: "7 dias grátis para testar",
@@ -109,8 +109,8 @@ export const translations = {
         },
         {
           name: "12 Meses",
-          price: "€69",
-          period: "total (€5,75/mês)",
+          price: "€49",
+          period: "total (€4,08/mês) • 32% OFF",
           badge: "Melhor Valor",
           cta: "Começar 7 Dias Grátis",
           trial: "7 dias grátis para testar",
@@ -209,7 +209,7 @@ export const translations = {
         },
         billing: {
           title: "Cobrança e Pagamentos",
-          content: "Após o período de teste de 7 dias, seu plano é ativado automaticamente. Os valores são cobrados conforme o plano selecionado: €9/mês (mensal), €39 total (6 meses) ou €69 total (12 meses). Os pagamentos são processados pela Lemon Squeezy.",
+          content: "Após o período de teste de 7 dias, seu plano é ativado automaticamente. Os valores são cobrados conforme o plano selecionado: €5,99/mês (mensal), €29 total (6 meses) ou €49 total (12 meses). Os pagamentos são processados pela Lemon Squeezy.",
         },
         cancellation: {
           title: "Cancelamento",
@@ -417,15 +417,15 @@ export const translations = {
       plans: [
         {
           name: "Monthly",
-          price: "€9",
+          price: "€5.99",
           period: "per month",
           cta: "Start 7 Days Free",
           trial: "7 days free trial",
         },
         {
           name: "6 Months",
-          price: "€39",
-          period: "total (€6.50/month)",
+          price: "€29",
+          period: "total (€4.83/month) • 19% OFF",
           badge: "Most Chosen • 90 decisive days",
           cta: "Start 7 Days Free",
           trial: "7 days free trial",
@@ -433,8 +433,8 @@ export const translations = {
         },
         {
           name: "12 Months",
-          price: "€69",
-          period: "total (€5.75/month)",
+          price: "€49",
+          period: "total (€4.08/month) • 32% OFF",
           badge: "Best Value",
           cta: "Start 7 Days Free",
           trial: "7 days free trial",
@@ -533,7 +533,7 @@ export const translations = {
         },
         billing: {
           title: "Billing and Payments",
-          content: "After the 7-day trial period, your plan is automatically activated. Amounts are charged according to the selected plan: €9/month (monthly), €39 total (6 months) or €69 total (12 months). Payments are processed by Lemon Squeezy.",
+          content: "After the 7-day trial period, your plan is automatically activated. Amounts are charged according to the selected plan: €5.99/month (monthly), €29 total (6 months) or €49 total (12 months). Payments are processed by Lemon Squeezy.",
         },
         cancellation: {
           title: "Cancellation",
@@ -741,15 +741,15 @@ export const translations = {
       plans: [
         {
           name: "Mensual",
-          price: "€9",
+          price: "€5,99",
           period: "por mes",
           cta: "Comenzar 7 Días Gratis",
           trial: "7 días gratis para probar",
         },
         {
           name: "6 Meses",
-          price: "€39",
-          period: "total (€6,50/mes)",
+          price: "€29",
+          period: "total (€4,83/mes) • 19% OFF",
           badge: "Más Elegido • 90 días decisivos",
           cta: "Comenzar 7 Días Gratis",
           trial: "7 días gratis para probar",
@@ -757,8 +757,8 @@ export const translations = {
         },
         {
           name: "12 Meses",
-          price: "€69",
-          period: "total (€5,75/mes)",
+          price: "€49",
+          period: "total (€4,08/mes) • 32% OFF",
           badge: "Mejor Valor",
           cta: "Comenzar 7 Días Gratis",
           trial: "7 días gratis para probar",
@@ -857,7 +857,7 @@ export const translations = {
         },
         billing: {
           title: "Facturación y Pagos",
-          content: "Después del período de prueba de 7 días, tu plan se activa automáticamente. Los valores se cobran según el plan seleccionado: €9/mes (mensual), €39 total (6 meses) o €69 total (12 meses). Los pagos son procesados por Lemon Squeezy.",
+          content: "Después del período de prueba de 7 días, tu plan se activa automáticamente. Los valores se cobran según el plan seleccionado: €5,99/mes (mensual), €29 total (6 meses) o €49 total (12 meses). Los pagos son procesados por Lemon Squeezy.",
         },
         cancellation: {
           title: "Cancelación",
