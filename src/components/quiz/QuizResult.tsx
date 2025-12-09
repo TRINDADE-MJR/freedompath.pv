@@ -42,13 +42,19 @@ export const QuizResult = ({ score, t, showSupportMessage }: QuizResultProps) =>
   }, [isCalculating]);
 
   useEffect(() => {
-    if (!isCalculating && displayScore < score) {
-      const timer = setTimeout(() => {
-        setDisplayScore(prev => Math.min(prev + 1, score));
+    if (!isCalculating) {
+      const interval = setInterval(() => {
+        setDisplayScore(prev => {
+          if (prev >= score) {
+            clearInterval(interval);
+            return score;
+          }
+          return prev + 1;
+        });
       }, 20);
-      return () => clearTimeout(timer);
+      return () => clearInterval(interval);
     }
-  }, [displayScore, score, isCalculating]);
+  }, [isCalculating, score]);
 
   const getMessage = () => {
     if (score >= 91) return t.result.levels.critical;
